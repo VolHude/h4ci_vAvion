@@ -8,7 +8,7 @@ CREATE TABLE `avion` (
 INSERT INTO `avion` (`name`, `model`, `price`, `category`) VALUES
 ('luxor', 'luxor', 900000, 'avion'),
 ('Buzzard', 'buzzard2', 7500, 'helico'),
-
+;
 
 CREATE TABLE `avion_categories` (
   `name` varchar(60) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE `avion_categories` (
 INSERT INTO `avion_categories` (`name`, `label`) VALUES
 ('avion', 'Avion'),
 ('helico', 'Helico'),
-
+;
 
 ALTER TABLE `avion`
   ADD PRIMARY KEY (`model`);
